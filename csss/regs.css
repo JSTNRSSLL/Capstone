@@ -1,0 +1,42 @@
+/* Adjust card styles */
+.card {
+    margin-top: 20px;
+}
+
+.card-header {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+}
+
+/* Style form elements */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-check-label {
+    margin-left: 10px;
+}
+
+/* Style submit button */
+.btn-primary {
+    background-color: #007BFF;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Center the form horizontally on larger screens */
+@media (min-width: 1576px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+}
+
+/* Additional custom styles */
+/* Add your own custom styles here */
